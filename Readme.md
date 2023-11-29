@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # Scheduler for ASP.NET Web Forms - How to modify availability and visibility of context menu items on the client side
 
-This example demonstrates how to change availability and visibility of [ASPxScheduler](https://docs.devexpress.com/AspNet/3685/components/scheduler) control's context menu items based on the selected appointment.
+This example demonstrates how to change the availability and visibility of [ASPxScheduler](https://docs.devexpress.com/AspNet/3685/components/scheduler) control's context menu items based on the selected appointment.
 
 ![Modify Contect Menu Items in Scheduler](result.png)
 
