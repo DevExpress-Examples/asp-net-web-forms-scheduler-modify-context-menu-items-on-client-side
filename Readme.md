@@ -2,13 +2,13 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5185)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Scheduler for ASP.NET Web Forms - How to modify the availability/visibility of context menu items on the client side
+# Scheduler for ASP.NET Web Forms - How to modify availability and visibility of context menu items on the client side
 
 This example demonstrates how to change availability and visibility of [ASPxScheduler](https://docs.devexpress.com/AspNet/3685/components/scheduler) control's context menu items based on the selected appointment.
 
 ![Modify Contect Menu Items in Scheduler](result.png)
 
-The Scheduler control's server-side [PopupMenuShowing](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScheduler.ASPxScheduler.PopupMenuShowing) event allows you to customize the context menu. Handle the menu's client-side [PopUp](https://docs.devexpress.com/AspNet/DevExpress.Web.MenuClientSideEvents.PopUp) event to access menu items and modify their settings based on the selected appointment. In this example, the [PopUp](https://docs.devexpress.com/AspNet/DevExpress.Web.MenuClientSideEvents.PopUp) event's handler performs the following actions:
+The Scheduler control's server-side [PopupMenuShowing](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScheduler.ASPxScheduler.PopupMenuShowing) event allows you to access and customize the context menu. Handle the menu's client-side [PopUp](https://docs.devexpress.com/AspNet/DevExpress.Web.MenuClientSideEvents.PopUp) event to modify menu item settings based on the selected appointment. In this example, the [PopUp](https://docs.devexpress.com/AspNet/DevExpress.Web.MenuClientSideEvents.PopUp) event's handler performs the following actions:
 
 * Enables or disables the **Open** item based on the selected appointment's status and subject.
 * Shows or hides the **Delete** item based on the selected appointment's status.
