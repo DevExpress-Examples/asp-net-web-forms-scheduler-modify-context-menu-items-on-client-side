@@ -31,7 +31,7 @@ The Scheduler control's server-side [PopupMenuShowing](https://docs.devexpress.c
 - [How to create a custom adaptive appointment form using templates (User Control)](https://github.com/DevExpress-Examples/asp-net-web-forms-scheduler-custom-adaptive-form-using-templates)
 - [How to bind a scheduler to a MS SQL Server database](https://github.com/DevExpress-Examples/asp-net-web-forms-scheduler-bind-to-sql)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-scheduler-modify-context-menu-items-on-client-side&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-scheduler-modify-context-menu-items-on-client-side&~~~was_helpful=no)
 
